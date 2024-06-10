@@ -226,7 +226,7 @@ body{
     padding: 2rem 0;
 }
 .image-center .image{
-    max-width: 100%;
+    max-width: 80%;
 }
 .image-center .image img{
     width: 100%;
