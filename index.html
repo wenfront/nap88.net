@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha512-U6K1YLIFUWcvuw5ucmMtT9HH4t0uz3M366qrF5y4vnyH6dgDzndlcGvH/Lz5k8NFh80SN95aJ5rqGZEdaQZ7ZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" integrity="sha512-qzrZqY/kMVCEYeu/gCm8U2800Wz++LTGK4pitW/iswpCbjwxhsmUwleL1YXaHImptCHG0vJwU7Ly7ROw3ZQoww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link
+    rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="icon" href="img/nap88-logo.png">
+    <title>Nap88 - Sân chơi đổi thưởng trực tuyến số 1 Châu</title>
+</head>
+<body>
+
+    <!-- header -->
+    <header>
+        <!-- top page -->
+        <div class="content-top-page">
+            <div class="top-page container-max-width">
+                <div class="left">
+                    <i class="ion-social-facebook"></i>
+                    <i class="ion-social-instagram"></i>
+                    <i class="ion-social-twitter"></i>
+                    <i class="ion-ios-email"></i>
+                    <a href="#">Giới thiệu</a>
+                    <a href="#">Chính sách bảo mật</a>
+                    <a href="#">Liên hệ</a>
+                </div>
+                <div class="right ">
+                    <div class="btn-top">
+                        <a href="https://www.hay88.one/?inviteCode=9075562" class="">ĐĂNG KÝ</a>
+                        <a href="https://www.hay88.one/?inviteCode=9075562"> THAM GIA NGAY</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-header">
+
+            <!-- head-item  -->
+            <div class="head-item container-max-width">
+                <div class="open-icon " onclick="OpenNav()"><ion-icon name="menu"></ion-icon></div>
+    
+                <div class="logo cursor-pointer">
+                    <img src="img/logo-n88.png">
+                </div>
+                              
+                <nav id="nav">
+                    <div class="close-icon">
+                        <ion-icon onclick="CloseNav()" name="close" class=""></ion-icon>
+                    </div>
+                    
+                    <div class="wrap">
+                        <div class="search">
+                           <input type="text" class="searchTerm" placeholder="Search...">
+                           <button type="submit" class="searchButton">
+                            <ion-icon name="search"></ion-icon>
+                          </button>
+                        </div>
+                     </div>
+                     
+                    <div class="nav-lists md:hidden">
+                        <a href="#">Trang chủ</a>
+                        <a href="components/nap.html">Nạp tiền Nap88</a>
+                        <a href="components/rut.html">Rút tiền Nap88</a>
+                        <a href="components/khuy.html">Khuyến mãi Nap88</a>
+                        <a href="components/hd.html">HD đăng ký Nap88</a>
+                        <a href="components/tai.html">Tải app Nap88</a>
+                        <a href="components/blog.html">Blog</a>
+                        <div class="contect">
+                            <i class="ion-social-facebook"></i>
+                            <i class="ion-social-instagram"></i>
+                            <i class="ion-social-twitter"></i>
+                            <i class="ion-ios-email"></i>
+                        </div>
+                    </div>
+    
+                    <div class="links text-white hidden md:block">
+                        <a class="item active" href="#">Trang chủ</a>
+                        <a class="item" href="components/nap.html">Nạp tiền Nap88</a>
+                        <a class="item" href="components/rut.html">Rút tiền Nap88</a>
+                        <a class="item" href="components/khuy.html">Khuyến mãi Nap88</a>
+                        <a class="item" href="components/hd.html">HD đăng ký Nap88</a>
+                        <a class="item" href="components/tai.html">Tải app Nap88</a>
+                        <a class="item" href="components/blog.html">Blog</a>
+                    </div>
+                </nav>
+    
+                <div class="hidden md:block">
+                    <div class="searchs">
+                        <button type="submit" class="searchButton-top">
+                          <ion-icon name="search"></ion-icon>
+                       </button>
+                     </div>
+                </div>
+                
+            </div>
+            <!-- end of head item -->
+            <div class="btn-bottom">
+                    <a href="https://www.hay88.one/?inviteCode=9075562" class="">ĐĂNG KÝ</a>
+                    <a href="https://www.hay88.one/?inviteCode=9075562"> THAM GIA NGAY</a>
+            </div>
+            
+        </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- hero -->
+     <section class="hero">
+        <div class="content-hero container-max-width">
+            <div class="hero-grid-img">
+                <div class="box">
+                    <div class="image">
+                        <img src="img/1.gif" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="img/2.gif" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="img/3.gif" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="img/4.gif" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="img/5.gif" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="img/6.gif" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="img/7.gif" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="img/8.gif" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="img/9.gif" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="img/10.gif" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="img/11.gif" alt="">
+                    </div>
+                </div>
+            </div>
+            <h1>NHÀ CÁI NAP88 - SÂN CHƠI ĐỔI THƯỞNG TRỰC TUYẾN SỐ 1 CHÂU Á
+            </h1>
+            <div class="texts">
+                <p>
+                    Nap88 - đơn vị nhà cái đang có những bước phát triển mạnh mẽ trong lĩnh vực game đổi thưởng trực tuyến. Khi nhắc đến nhà cái Nap88 anh em sẽ lập tức hứng thú với kho game khổng lồ tại website, cùng với đó các dịch vụ tiện ích kèm theo phục vụ quá trình trải nghiệm của thành viên. Bài viết dưới đây chúng tôi Nap88 sẽ mang đến cho anh em những đánh giá tổng quan, chính xác nhất về đơn vị nhà cái. Mời các bạn cùng tham khảo!
+                </p>
+            </div>
+            <h2>Giới thiệu chung về nhà cái Nap88</h2>
+            <div class="texts">
+                <p>
+                    Nap88 hiện đang là trang web cá cược trực tuyến, bao gồm rất nhiều các trò chơi, tựa game đổi thưởng hot như cá cược thể thao, bóng đá, đá gà, casino trực tuyến, bắn cá, xổ số, nổ hũ… Theo nguồn tin từ phía nhà phát hành cung cấp thì nhà cái Nap88 chỉ mới thành lập trên thị trường giải trí trực tuyến trong một vài năm gần đây. Tuy nhiên những giá trị và vị thế mà Nap88 đang khẳng định là rất vững mạnh.
+                </p>
+            </div>
+            <h3>Nhà cái Nap88 mang sứ mệnh to lớn</h3>
+            <div class="content-flex">
+                 <div class="image">
+                        <img src="img/12.jpg" alt="">
+                </div>
+
+                <div class="text">
+                    <div class="texts">
+                        <p>
+                            Khi tham gia, anh em chỉ cần đăng ký một tài khoản hợp pháp theo đúng quy định, điều khoản mà nhà cái đưa ra. Bước tiếp theo bạn có thể tham gia giải trí miễn phí mang tính chất thư giãn, bên cạnh đó nạp tiền để chơi cá cược mang về tiền thưởng thật. 
+                        </p>
+                    </div>
+                    <div class="texts">
+                        <p>
+                            Theo số liệu thống kê của những chuyên gia cho biết mỗi ngày đơn vị Nap88 có tới hơn 10 nghìn kèo đấu các thể loại. Tỷ lệ ăn cược cao, số lượng kèo phong phú cũng giúp cho việc lựa chọn nhu cầu của thành viên được dễ dàng nhất. Bạn cũng không còn gặp phải những trường hợp nhàm chán, có tính chất lặp đi lặp lại khi phải chơi những mặt game quen thuộc…
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="texts">
+                <p>
+                    Với mục tiêu sáng tạo, phát triển, cập nhật, cải tiến không ngừng nghỉ. Nap88 luôn lắng nghe ý kiến đóng góp đến từ phía thành viên, trong thời gian tới nhà cái sẽ còn mang đến cho cộng đồng anh em hàng vạn tựa game cá cược hấp dẫn khác. Nap88 Mong rằng các bạn sẽ theo dõi, đồng hành, mời bạn bè người thân tham gia đông đảo với nhà cái, xây dựng cộng đồng game vững mạnh…
+                </p>
+            </div>
+            <div class="texts">
+                <p>
+                    Hơn thế nữa Nap88 cũng luôn đưa ra các chính sách chương trình khuyến mãi hấp dẫn dành cho toàn thể cấp độ thành viên. Tặng tiền mặt vào ví, tặng thẻ cào, tặng code, voucher… Những điều đó sẽ là động lực, tiếp thêm sức mạnh, sự hưng phấn cho anh em đồng hành với nhà cái bền vững hơn.
+                </p>
+            </div>
+            <h3>Phương châm hoạt động</h3>
+            <div class="texts">
+                <p>
+                    Trong thời đại công nghệ 4.0, thị trường cờ bạc trực tuyến là một trong những địa điểm, trang mạng cá cược giải trí trực tuyến sôi động và phát triển mạnh mẽ hơn bao giờ hết. Chính vì vậy Nap88 chính là sân chơi tốt nhất, chất lượng nhất và an toàn nhất để đưa người chơi đến gần hơn với những gì mà mình mong muốn. Có thể là giải trí, cũng có thể coi đây như một kênh kiếm tiền thực thụ.
+                </p>
+            </div>
+            <div class="texts">
+                <p>
+                    Nap88 đã thiết lập hệ thống an ninh mạng tiên tiến và cung cấp nhiều loại sản phẩm, điều quan trọng nhất là phương châm kinh doanh. Luôn lấy uy tín tạo dựng niềm tin, chất lượng tạo dựng thương hiệu. Nhà cái Nap88 vẫn sẽ tiếp tục nâng cao chất lượng dịch vụ, mang đến cho người chơi những giây phút thư giãn thoải mái và trải nghiệm tuyệt vời với sự phục vụ tận tình và thông tin rõ ràng nhất được đề cập trên trang chủ website.
+                </p>
+            </div>
+            <div class="texts">
+                <p>
+                    Công ty cá cược Nap88 kết nối thông tin với khách hàng trên mọi miền tổ quốc thông qua các hình thức và ứng dụng mới nhất, hiện đại nhất. Cập nhật thông tin mới nhất về chúng tôi đến với các bạn, các bạn hãy tham gia kênh Facebook, Twitter, Youtube của chúng tôi để được hỗ trợ tốt nhất.
+                </p>
+            </div>
+            <h2>Đánh giá điểm mạnh của nhà cái Nap88</h2>
+            <div class="texts">
+                <p>
+                    Đối với các cổng game giải trí online hiện nay việc trang bị các tính năng hiện đại, phục vụ quá trình trải nghiệm của người chơi là rất cần thiết. Nhờ những tính năng, dịch vụ đó mà nhà cái càng thu hút được số lượng thành viên, lượt chơi nhiều. Tạo dựng cộng đồng game phát triển mạnh mẽ và bền vững.
+                </p>
+            </div>
+            <div class="image-center">
+                <div class="image">
+                    <img src="img/13.jpg" alt="">
+                </div>
+            </div>
+            <div class="texts">
+                <p>
+                    Với Nap88 cũng như vậy nhà cái này luôn chú trọng đến cảm giác trải nghiệm của khách hàng. Luôn đề ra các phương án tối ưu trên toàn hệ thống website, từ đó điểm hài lòng của thành viên đánh giá cũng rất tốt. Những mặt đó được thể hiện như sau:
+                </p>
+            </div>
+            <h3>Hệ thống nhà cái Nap88 trung thực và công bằng</h3>
+            <div class="texts">
+                <p>
+                    Trung thực và công bằng là yếu tố quan trọng mà Nap88 luôn duy trì để khẳng định uy tín của mình trên thị trường game trực tuyến Châu Á. Đây cũng là điều đại diện cho toàn bộ hệ thống nhà cái mỗi khi người chơi nhắc đến. 
+                </p>
+            </div>
+            <div class="texts">
+                <p>
+                    Tại đây anh em không cần lo lắng về bất cứ vấn đề nào về nhà cái như lừa đảo, bị lừa gạt, ăn cắp tiền và không cho phép rút tiền. Đơn vị và toàn bộ hệ thống luôn cam kết mang đến cho khách hàng của Nap88 những sản phẩm cá cược an toàn nhất, trung thực nhất và công bằng nhất. 
+                </p>
+            </div>
+            <div class="texts">
+                <p>
+                    Nap88 tuyệt đối không có các chiêu trò nào ẩn nấp phía sau. Nếu đơn vị cũng phát hiện ra thành viên cố tình làm ảnh hưởng đến sự cân bằng của game, ảnh hưởng đến thành viên khác, chơi game gian lận sẽ xử lý trừng phạt nặng nhất.
+                </p>
+            </div>
+            <h3>Chương trình khuyến mãi siêu hấp dẫn tại Nap88</h3>
+            <div class="texts">
+                <p>
+                    Tất cả người chơi tham gia tại nhà cái Nap88 đều có cơ hội tham gia nhiều khuyến mãi hấp dẫn như: Ưu đãi bất ngờ, khuyến mãi thưởng cá cược miễn phí, thưởng lần nạp tiền đầu tiên, khuyến mãi hoàn tiền hàng ngày, khuyến mãi nạp tiền, khuyến mãi nâng hạng VIP, khuyến mãi cuối tuần, khuyến mãi sự kiện, khuyến mãi theo mùa, ưu đãi nhất khuyến mại đặc biệt trên thị trường….
+                </p>
+            </div>
+            <div class="texts">
+                <p>
+                    Nhà cái uy tín Nap88 luôn cung cấp những hoạt động khuyến mãi hấp dẫn nhất dành cho những thành viên trung thành, chơi lâu năm và cả những anh em người chơi mới của Nap88.
+                </p>
+            </div>
+            <h3>Kho game giải trí đa dạng tại Nap88</h3>
+            <div class="image-center">
+                <div class="image">
+                    <img src="img/14.jpg" alt="">
+                </div>
+            </div>
+            <div class="texts">
+                <p>
+                    Để phục vụ thị trường Việt Nam cũng như khu vực Châu Á, nhà cái Nap88 đã đầu tư nhiều sản phẩm chất lượng cao để bạn có thể trải nghiệm một cách thú vị nhất. 
+                </p>
+            </div>
+            <div class="texts">
+                <p>
+                    Toàn bộ hệ thống nhà cái Nap88 được biết đến là kênh cá cược bóng đá, thể thao trực tuyến tại nhà cái, hàng nghìn trận đấu bóng đá lớn nhỏ, lịch thi đấu bóng đá, bảng xếp hạng bóng đá, kết quả bóng đá, giải Ngoại Hạng Anh, Laliga, Bundesliga (giải) được cập nhật bất cứ lúc nào. Germany), C1, C2, Ligue 1, Serie A, World Cup, European Cup, Sea Race, AFF Cup, … 
+                </p>
+            </div>
+            <div class="texts">
+                <p>
+                    Với những dự đoán bóng đá hôm nay và tỷ lệ cá cược của nhà cái Nap88 bạn sẽ dễ dàng có cho bản thân những kèo cược bóng đá với tỷ lệ ăn cao nhất. Ngoài ra, nhà cái nổi tiếng với việc mang đến cho người chơi những sản phẩm cá cược độc quyền và hấp dẫn nhất thế giới. Ví dụ ngoài bóng đá còn có các bộ môn cá cược thể thao khác như: bóng rổ, bóng chày, bóng chuyền, tennis… 
+                </p>
+            </div>
+            <div class="texts">
+                <p>
+                    Tiếp đến không thể thiếu bộ môn giải trí đánh bài casino trực tuyến với toàn bộ các sản phẩm hot nhất như: bài cào Baccarat, Sicbo, Cò quay, Poker, Blackjack, Dragon Tiger,…, Slots game, Number Games, Keno, Happy 5, Tài chính, Bắn cá Online … Được người chơi Việt Nam và cộng đồng người chơi khu vực Châu Á ưa chuộng nhất.
+                </p>
+            </div>
+            <h3>Nền tảng giải trí hiện đại </h3>
+            <div class="texts">
+                <p>
+                    Nhà cái Nap 88 cung cấp nền tảng công nghệ hoàn toàn mới và tiên tiến nhất chính vì vậy anh em cũng dễ dàng nhận ra một số điểm mạnh như giao diện sảnh chính và giao diện sản phẩm đều rất đẹp. Tất cả tạo ra một trải nghiệm mới mẻ và thoải mái nhất cho người chơi khi đặt cược trên trang web. 
+                </p>
+            </div>
+            <div class="texts">
+                <p>
+                    Ngoài ra không thể nhắc đến, Nap88 còn tối ưu hóa tốc độ tải trang web trên giao diện di động. Nói dễ hiểu hơn là anh em sẽ được tải ứng dụng nhà cái về máy điện thoại di động hệ điều hành IOS và Android để chơi trực tiếp. Vì vậy, người chơi có thể yên tâm khi trải nghiệm cá cược mọi lúc mọi nơi và có cơ hội chiến thắng cao hơn.
+                </p>
+            </div>
+            <h3>Hệ thống chính sách bảo mật an toàn tuyệt đối </h3>
+            <div class="texts">
+                <p>
+                    Bảo mật mọi thông tin khách hàng là trách nhiệm chính được đặt lên hàng đầu mà Nap88 luôn đảm bảo với tất cả anh em thành viên. Vì vậy, mỗi người chơi của Nap88 chỉ có một ID và một mật khẩu đăng nhập duy nhất để đảm bảo an toàn tuyệt đối cho tài khoản của mình mà thôi. 
+                </p>
+            </div>
+            <div class="texts">
+                <p>
+                    Ngoài ra, tất cả các giao dịch ngân hàng như nạp tiền, rút tiền và thanh toán trực tuyến của người chơi đều được thực hiện bởi các tổ chức tài chính quốc tế, tuyệt đối an toàn và đáng tin cậy (tiêu chuẩn mã hóa RSA 1024-bit và cá nóc 448-bit). Tất cả các vấn đề giao dịch sẽ đều trực tiếp 1 vs 1 tại nhà cái. Tuyệt đối không qua bất cứ đơn vị thứ 3 nào, anh em phải lưu ý vấn đề này để tránh các đối tượng kẻ gian lợi dụng lừa đảo.
+                </p>
+            </div>
+            <div class="content-flex">
+               <div class="text">
+                    <h3>Chăm sóc khách hàng chuyên nghiệp </h3>
+                   <div class="texts">
+                       <p>
+                        Nhà cái Nap88 cung cấp dịch vụ giải trí trên toàn khu vực Châu Á – Thái Bình Dương, vì vậy dịch vụ hỗ trợ chăm sóc khách hàng 24/7 sẽ được đào tạo nghiệp vụ chuyên nghiệp. Các tư vấn đều là người trẻ, nhiệt tình, nhiệt huyết với công việc, nắm bắt sâu sát kiến ​​thức sản phẩm, hệ thống thanh toán, giải quyết mọi vấn đề khách hàng gặp phải nhanh nhất.  
+                       </p>
+                   </div>
+                   <div class="texts">
+                       <p>
+                        Khi đến với dịch vụ chăm sóc khách hàng độc quyền của nhà cái Nap88, bạn hãy áo dụng một trong các cách liên hệ khác nhau như: gửi thư về hòm thư điện tử email, chat trực tuyến trên website, Zalo, Facebook, Twitter và Instagram rất tiện lợi. Đội ngũ hỗ trợ trực tuyến của Nap88 luôn sẵn sàng hỗ trợ bạn kịp thời nhất.
+                       </p>
+                   </div>
+               </div>
+               <div class="image">
+                    <img src="img/15.jpg" alt="">
+                </div>
+           </div>
+           <h2>Kết luận</h2>
+           <div class="texts">
+            <p>
+                Với những điểm mạnh mà nhà cái mang đến, liệu người chơi đã có những ấn tượng sâu sắc về nhà cái Nap88 chưa? Còn chần chờ gì nữa mà không thử tham gia đặt cược tại nhà cái để tận hưởng những giây phút thư giản, thoải mái nhất nào.
+            </p>
+           </div>
+        </div>
+     </section>
+    <!-- end of hero -->
+
+    <footer>
+        <div class="footer-1">
+            <div class="footer container-max-width">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="image-footer">
+                                <div class="image">
+                                    <img src="img/footer.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-footer">
+                                <div class="image">
+                                    <img src="img/footer1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-footer">
+                                <div class="image">
+                                    <img src="img/footer2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-footer">
+                                <div class="image">
+                                    <img src="img/footer3.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-footer">
+                                <div class="image">
+                                    <img src="img/footer4.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-footer">
+                                <div class="image">
+                                    <img src="img/footer5.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-footer">
+                                <div class="image">
+                                    <img src="img/footer6.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-footer">
+                                <div class="image">
+                                    <img src="img/footer7.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+    
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-2">
+            <div class="footer-text container-max-width">
+                <span>Cờ bạc có thể gây nghiện, hãy chơi có trách nhiệm. Để biết thông tin về các biện pháp hỗ trợ, vui lòng truy cập trang trợ giúp của chúng tôi.</span>
+                <div class="copy">
+                    <p>Copyright 2024 <i class="fa-solid fa-copyright"></i></p>
+                    <img src="img/footer8.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="js/app.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha512-U6K1YLIFUWcvuw5ucmMtT9HH4t0uz3M366qrF5y4vnyH6dgDzndlcGvH/Lz5k8NFh80SN95aJ5rqGZEdaQZ7ZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" integrity="sha512-qzrZqY/kMVCEYeu/gCm8U2800Wz++LTGK4pitW/iswpCbjwxhsmUwleL1YXaHImptCHG0vJwU7Ly7ROw3ZQoww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/hd.css">
+    <link
+    rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="icon" href="../img/nap88-logo.png">
+    <title>Nap88 - Sân chơi đổi thưởng trực tuyến số 1 Châu</title>
+</head>
+<body>
+
+    <!-- header -->
+    <header>
+        <!-- top page -->
+        <div class="content-top-page">
+            <div class="top-page container-max-width">
+                <div class="left">
+                    <i class="ion-social-facebook"></i>
+                    <i class="ion-social-instagram"></i>
+                    <i class="ion-social-twitter"></i>
+                    <i class="ion-ios-email"></i>
+                    <a href="#">Giới thiệu</a>
+                    <a href="#">Chính sách bảo mật</a>
+                    <a href="#">Liên hệ</a>
+                </div>
+                <div class="right ">
+                    <div class="btn-top">
+                        <a href="https://www.hay88.one/?inviteCode=9075562" class="">ĐĂNG KÝ</a>
+                        <a href="https://www.hay88.one/?inviteCode=9075562"> THAM GIA NGAY</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-header">
+
+            <!-- head-item  -->
+            <div class="head-item container-max-width">
+                <div class="open-icon " onclick="OpenNav()"><ion-icon name="menu"></ion-icon></div>
+    
+                <div class="logo cursor-pointer">
+                    <img src="../img/logo-n88.png">
+                </div>
+                              
+                <nav id="nav">
+                    <div class="close-icon">
+                        <ion-icon onclick="CloseNav()" name="close" class=""></ion-icon>
+                    </div>
+                    
+                    <div class="wrap">
+                        <div class="search">
+                           <input type="text" class="searchTerm" placeholder="Search...">
+                           <button type="submit" class="searchButton">
+                            <ion-icon name="search"></ion-icon>
+                          </button>
+                        </div>
+                     </div>
+                     
+                    <div class="nav-lists md:hidden">
+                        <a href="../index.html">Trang chủ</a>
+                        <a href="../components/nap.html">Nạp tiền Nap88</a>
+                        <a href="../components/nap.html">Rút tiền Nap88</a>
+                        <a href="../components/khuy.html">Khuyến mãi Nap88</a>
+                        <a href="#">HD đăng ký Nap88</a>
+                        <a href="../components/tai.html">Tải app Nap88</a>
+                        <a href="../components/blog.html">Blog</a>
+                        <div class="contect">
+                            <i class="ion-social-facebook"></i>
+                            <i class="ion-social-instagram"></i>
+                            <i class="ion-social-twitter"></i>
+                            <i class="ion-ios-email"></i>
+                        </div>
+                    </div>
+    
+                    <div class="links text-white hidden md:block">
+                        <a class="item" href="../index.html">Trang chủ</a>
+                        <a class="item" href="../components/nap.html">Nạp tiền Nap88</a>
+                        <a class="item" href="../components/rut.html">Rút tiền Nap88</a>
+                        <a class="item" href="../components/khuy.html">Khuyến mãi Nap88</a>
+                        <a class="item active" href="#">HD đăng ký Nap88</a>
+                        <a class="item" href="../components/tai.html">Tải app Nap88</a>
+                        <a class="item" href="../components/blog.html">Blog</a>
+                    </div>
+                </nav>
+    
+                <div class="hidden md:block">
+                    <div class="searchs">
+                        <button type="submit" class="searchButton-top">
+                          <ion-icon name="search"></ion-icon>
+                       </button>
+                     </div>
+                </div>
+                
+            </div>
+            <!-- end of head item -->
+            <div class="btn-bottom">
+                    <a href="https://www.hay88.one/?inviteCode=9075562" class="">ĐĂNG KÝ</a>
+                    <a href="https://www.hay88.one/?inviteCode=9075562"> THAM GIA NGAY</a>
+            </div>
+            
+        </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- hero -->
+     <section class="hero">
+        <div class="content-hero container-max-width">
+            <div class="hero-grid-img">
+                <div class="box">
+                    <div class="image">
+                        <img src="../img/1.gif" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="../img/2.gif" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="../img/3.gif" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="../img/4.gif" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="../img/5.gif" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="../img/6.gif" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="../img/7.gif" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="../img/8.gif" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="../img/9.gif" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="../img/10.gif" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="../img/11.gif" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="container-hero">
+                
+                <!-- left -->
+                <div class="content-left">
+                    <span>TIN TỨC</span>
+                    <h1>Hướng dẫn đăng ký Nap88 để làm thành viên chính thức</h1>
+                    <div class="texts">
+                        <p>
+                            Website cá độ Nap88 đang trên đà phát triển với mục tiêu mang đến cho các game thủ những giây phút thư giãn đỉnh cao. Hãy thử qua kho game khổng lồ với những ưu đãi cực hấp dẫn tại nhà cái bằng cách đăng ký Nap88 ngay bạn nhé. Dưới đây là hướng dẫn đăng ký Nap88 dành cho người chơi. 
+                        </p>
+                    </div>
+                    <h2>Hướng dẫn đăng ký Nap88 nhanh chóng</h2>
+                    <div class="texts">
+                        <p>
+                            Chỉ mất khoảng vài phút để thao tác tại web cá cược Nap88, anh em có thể thoả thích trải nghiệm nhiều game thú vị. Làm theo hướng dẫn đăng ký Nap88 đây nhé.
+                        </p>
+                    </div>
+                    <div class="image-center">
+                        <div class="image">
+                            <img src="../img/hd1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="texts-center">
+                        <p>
+                            Hướng dẫn đăng ký Nap88 tại nhà cái uy tín
+                        </p>
+                    </div>
+                    <h3>Bước 1: Đăng nhập link chính chủ vào Nap88 đăng ký</h3>
+                    <div class="texts">
+                        <p>
+                            Trên thị trường hiện nay có rất nhiều địa chỉ web giả mạo nhà cái Nap88 để đánh lừa khách hàng. Do đó, bạn nên sáng suốt lựa chọn trang chủ uy tín của Nap88 để tránh mất tiền vô cớ. 
+                            </p>
+                    </div>
+                    <h3>Bước 2: Tạo tài khoản</h3>
+                    <div class="texts">
+                        <p>
+                            Sau khi vào đúng website, người chơi tiếp tục chọn nút đăng ký và cung cấp thông tin đầy đủ để tiến hành tạo tài khoản. Những mục quan trọng khi đăng ký Nap88 bao gồm:
+                        </p>
+                    </div>
+                    <ol class="un-list">
+                        <li>Tên đăng nhập: yêu cầu phải có ít nhất 6 ký tự.</li>
+                        <li>Bước 2: Điền đầy đủ yêu cầu và Form đăng ký từ thông tin cá nhân, số điện thoại, email đến tên đăng nhập, mật khẩu,…. Những thông tin này đều được nhà cái Nap88 bảo mật tuyệt đối. Mật khẩu: chứa từ 6 ký tự, anh em nên sử dụng thêm những ký tự đặc biệt để tăng tính bảo mật cho tài khoản của mình.</li>
+                        <li>Số điện thoại: đây là mục rất quan trọng, khách cược cần điền đúng số để xác minh tài khoản chính xác. Tốt nhất sử dụng số điện thoại chính chủ, không nên dùng số của người khác.</li>
+                    </ol>
+                    <h3>Bước 3: Kiểm tra thông tin</h3>
+                    <div class="texts">
+                        <p>
+                            Cuối cùng, xem kỹ lại toàn bộ thông tin trước khi bấm nút đăng ký ngay. Trong khoảng từ 3 đến 5 phút, hệ thống sẽ thông báo đăng ký Nap88 thành công. Lúc này, bạn có thể vào game đặt mua vé cược bất cứ lúc nào.
+                        </p>
+                    </div>
+                    <h2>Những điểm mạnh vượt trội của sân chơi Nap88</h2>
+                    <div class="texts">
+                        <p>
+                            Mặc dù mới ra mắt khách hàng trong thời gian chưa lâu, Nap88 chiếm trọn sự tin tưởng trong lòng nhiều cược thủ. Với những tính năng vượt trội sau đây sẽ khiến bạn an tâm hơn khi đăng ký theo <b>hướng dẫn đăng ký Nap88</b> vừa rồi. 
+                        </p>
+                    </div>
+                    <h3>Giao diện đẹp mắt</h3>
+                    <div class="texts"><p>
+                        Website cá cược được xây dựng bài bản, bố cục sắp xếp rất khoa học giúp người chơi có cái nhìn trực quan. Bạn sẽ sớm làm quen vị trí các danh mục game, tiết kiệm được thời gian tìm kiếm
+                    </p></div>
+                    <div class="image-center">
+                        <div class="image">
+                            <img src="../img/hd2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="texts-center">
+                        <p>
+                            Giao diện của trang chủ cá cược uy tín Nap88
+                        </p>
+                    </div>
+                    <div class="texts">
+                        <p>Hệ thống web cũng sử dụng đa dạng ngôn ngữ như Tiếng Việt, Trung Hoa, Nhật Bản, Thái Lan, Tiếng Anh… Khách cược có thể tùy chỉnh theo ngôn ngữ thích hợp với mình.
+                        </p>
+                    </div>
+                    <div class="texts">
+                        <p>Ngoài ra, người tham gia có thể tải ứng dụng Nap88 để trải nghiệm thế giới trò chơi trên chính chiếc dế yêu của mình. Giao diện và phương thức hoạt động cũng tương tự như chơi trên máy tính, thân thiện với người dùng. Việc chơi trên app sẽ giúp bạn hạn chế truy cập vào trang chủ không chính thống. 
+                        </p>
+                    </div>
+                    <h3>Cung cấp nhiều sản phẩm cá cược</h3>
+                    <div class="texts">
+                        <p>Đây cũng chính là yếu tố hàng đầu mà các game thủ quan tâm khi lựa chọn nhà cái để cá cược. Tại web Nap88 bạn sẽ có cơ hội thử sức với nhiều trò chơi với cấp độ khác nhau, cực kỳ thú vị.
+                        </p>
+                    </div>
+                    <ul class="list">
+                        <li>Cược thể thao: nếu là một người mê bóng đá, bóng chuyền, đua xe hoặc đua ngựa…chắc chắn anh em phải thử đăng ký làm thành viên dựa vào <b>hướng dẫn đăng ký Nap8</b>8 ở trên để chơi game ngay! Vì web cá độ có rất nhiều giải đấu cấp quốc gia như Ý, Đức, Ngoại hạng Anh…</li>
+                        <li>Sòng bạc online: khách cược sẽ có những giây phút trải nghiệm chơi game sống động, cảm giác rất chân thực với các trò chơi như roulette, blackjack, poker…</li>
+                        <li>Xổ số trực tuyến: đây cũng được đánh giá là sân chơi thu hút nhiều khách tham dự bởi hình thức trả thưởng cực hấp dẫn. Đầu tư vào phòng xổ số, keno, vietlott…giúp anh em thu về lợi nhuận rất cao.</li>
+                    </ul>
+                    <h3>Bảo mật thông tin tuyệt đối</h3>
+                    <div class="texts">
+                        <p>Vấn đề bảo mật thông tin luôn là tiêu chí mà nhà cái Nap88 đặt lên hàng đầu. Quý khách hàng hoàn toàn yên tâm khi đăng ký Nap88 theo hướng dẫn để chơi game. Vì thông tin khách cược sẽ được mã hoá đến 3 lớp bảo mật. 
+                        </p>
+                    </div>
+                    <div class="texts"><p>
+                        Hơn nữa, mọi giao dịch nạp và rút tiền tại đây đều yêu cầu khách phải đăng nhập chính xác thông tin tài khoản chính chủ. Việc này đảm bảo thông tin bạn không bị kẻ gian đánh cắp.
+                    </p></div>
+                    <h3>Thường xuyên khuyến mãi</h3>
+                    <div class="texts">
+                        <p>Sức hút cực lớn từ các chương trình ưu đãi cũng là ưu điểm khiến nhiều cược thủ vào website Nap88 giải trí. 
+                        </p>
+                    </div>
+                    <ul class="list">
+                        <li>Ưu đãi và quà tặng giá trị dành cho tân binh.</li>
+                        <li>Giới thiệu bạn bè nhận ngay tiền thưởng.</li>
+                        <li>Hình thức lại số tiền cược bị thua mỗi ngày.</li>
+                        <li>Áp dụng khuyến mãi đặc biệt dành cho thành viên VIP.</li>
+                        <li>Nhiều chương trình tri ân thành viên ủng hộ nhà cái vào các dịp lễ lớn.
+                        </li>
+                    </ul>
+                    <h3>Thường xuyên khuyến mãi</h3>
+                    <div class="texts">
+                        <p>Để giải quyết vấn đề người chơi có nhu cầu nhận thưởng khuyến mãi nhưng không đáp ứng ràng buộc yêu cầu của vòng cược, nhà cái online đã không ngần ngại tung ra khuyến mãi Nap88 thưởng nạp hàng ngày không vòng cược. Với gói ưu đãi này, bạn chỉ cần nạp tiền hàng ngày là đã có thể nhận được những giải thưởng nóng mà không cần tham gia vòng cược nào.
+                        </p>
+                    </div>
+                    <div class="image-center">
+                        <div class="image">
+                            <img src="../img/hd3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="texts-center">
+                        <p>
+                            Tặng tiền thưởng khi giới thiệu khách mới tham gia
+                        </p>
+                    </div>
+                    <h2>Cách nạp tiền an toàn tại Nap88</h2>
+                    <div class="texts">
+                        <p>
+                            Nạp tiền vào tài khoản Nap88 trước khi tham gia đặt cược là điều cần thiết. Có trong tay số vốn nhất định sẽ giúp anh em tự tin hơn khi xuống tiền cược.
+                        </p>
+                    </div>
+                    <ul class="list">
+                        <li>Bước 1: Đăng nhập thành công vào tài khoản tại web cá cược Nap88, chọn vào ô tài khoản của tôi. Tiếp theo chọn vào mục nạp tiền. </li>
+                        <li>Bước 2: Trang web hiển thị danh sách ngân hàng mà nhà cái có hỗ trợ, bạn chọn 1 ngân hàng muốn dùng để gửi tiền. Lúc này, hệ thống hiển thị thông tin tài khoản ngân hàng của Nap88, bạn chỉ cần chuyển tiền vào tài khoản này. </li>
+                    </ul>
+                    <h2>Kết luận</h2>
+                    <div class="texts">
+                        <p>
+                            Bài viết giới thiệu chi tiết <b>hướng dẫn đăng ký Nap88</b> cũng như những ưu điểm nổi trội của nhà cái. Anh em hãy nhanh tay tạo tài khoản để có những giờ phút chơi game giải trí đỉnh cao. 
+                        </p>
+                    </div>
+                    <div class="icons-contect">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-solid fa-envelope"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+
+                <!-- rigth -->
+                <div class="content-rigth">
+                    <div class="image-rigth">
+                        <img src="../img/r7.gif" alt="">
+                    </div>
+                    <div class="image-rigth">
+                        <img src="../img/r8.gif" alt="">
+                    </div>
+                    <span>Bài viết mới</span>
+                    <table style="width:100%">
+                        <tr>
+                            <td>Thể Thao Sbobet – Điểm Giải Trí Uy Tín Hàng Đầu Châu Á</td>
+                        </tr>
+                        <tr>
+                          <td>Tìm Hiểu Tỷ Lệ Kèo Sbobet Trong Cá Cược Thể Thao Chi Tiết</td>
+                        </tr>
+                        <tr>
+                           <td>Sảnh Game 3D Sbobet Có Gì? Hướng Dẫn Bạn Cách Chơi</td>
+                        </tr>
+                        <tr>
+                          <td>Đăng Nhập Sbobet Cực Nhanh Chóng Bằng Website Hoặc App</td>
+                        </tr>
+                        <tr>
+                           <td>Review Sảnh Thể Thao Sv388 – 4 Sản Phẩm Cá Cược Hấp Dẫn </td>
+                        </tr>
+                    </table>
+                    <span>Chuyên mục</span>
+                    <table style="width:100%">
+                        <tr>
+                            <td>Blog</td>
+                        </tr>
+                        <tr>
+                          <td>Nhà cái</td>
+                        </tr>
+                        <tr>
+                           <td>Top Game Bài</td>
+                        </tr>
+                        <tr>
+                          <td>Soi kèo bóng đá</td>
+                        </tr>
+                        <tr>
+                           <td>Top Game Slot </td>
+                        </tr>
+                        <tr>
+                           <td>Xổ số</td>
+                        </tr>
+                        <tr>
+                          <td>Bắn cá</td>
+                        </tr>
+                        <tr>
+                           <td>Đá gà</td>
+                        </tr>
+                    </table>
+    
+                </div>
+                
+            </div>  
+        </div>
+     </section>
+    <!-- end of hero -->
+
+    <footer>
+        <div class="footer-1">
+            <div class="footer container-max-width">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="image-footer">
+                                <div class="image">
+                                    <img src="../img/footer.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-footer">
+                                <div class="image">
+                                    <img src="../img/footer1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-footer">
+                                <div class="image">
+                                    <img src="../img/footer2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-footer">
+                                <div class="image">
+                                    <img src="../img/footer3.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-footer">
+                                <div class="image">
+                                    <img src="../img/footer4.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-footer">
+                                <div class="image">
+                                    <img src="../img/footer5.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-footer">
+                                <div class="image">
+                                    <img src="../img/footer6.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="image-footer">
+                                <div class="image">
+                                    <img src="../img/footer7.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+    
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-2">
+            <div class="footer-text container-max-width">
+                <span>Cờ bạc có thể gây nghiện, hãy chơi có trách nhiệm. Để biết thông tin về các biện pháp hỗ trợ, vui lòng truy cập trang trợ giúp của chúng tôi.</span>
+                <div class="copy">
+                    <p>Copyright 2024 <i class="fa-solid fa-copyright"></i></p>
+                    <img src="../img/footer8.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="../js/app.js"></script>
+    
+</body>
+</html>
